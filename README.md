@@ -1,3 +1,3 @@
 Basically out of the box, this connects to a llama API on your local host on port 8080 and serves its own API on local host port 8000. During a streaming request, it catches if llama.cpp tries to return a 'reasoning_content' section and translates it to a standard think block before it returns it to the front end.
-If you're profficient with Python, you'll see the lines at the top and bottom to manually change that.
+If you're profficient with Python, you'll see the lines at the top and bottom to manually change API address and ports.
 There's a requirements.txt included for the few dependencies, so you'll probably want to make your own venv to run this from. I have personally been using this to get think blocks from GLM 4.5 Air on ChatterUI 0.8.7
